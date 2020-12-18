@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid vaccination form</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <section>
+    <div class="circle">
+    <h1>Government Covid-19 vaccination form</h1>
+</div>
+</section>
+    <img src="https://images.unsplash.com/photo-1583324113626-70df0f4deaab?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTd8fG1lZGljYWx8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+    <form action="">     
+        <div class="name">
+            <label for="first">First Name :-</label>
+            <input type="text" id="first" name="firstname" required>
+<br>
+            <label for="last">Last Name :-</label>
+            <input type="text" id="last" name="lastname" required>
+
+        </div>
+        <div class="para">
+        <p><span> Which company vaccine you want to take:-- </span></p>
+        <div>
+            <input type="radio" name="vaccine" id="Pfizer" value="Pfizer" required>
+            <label for="Pfizer">Pfizer Vaccine</label>
+        </div>
+        <div>
+            <input type="radio" name="vaccine" id="Cadila" value="Cadila" required>
+            <label for="Cadila">Cadila Vaccine</label>
+        </div>
+        <div>
+            <input type="radio" name="vaccine" id="Serum" value="Serum" required>
+            <label for="Serum">Serum Vaccine</label>
+        </div>
+        </div>
+        <div>
+            <br>
+            <label for="email">Email:--</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+
+        <div>
+            <br>
+            <label for="division">Select age group</label>
+            <select name="division" id="division">
+               <option value="kids">Under 18</option>
+               <option value="young adults">18-30 years</option>
+               <option value="adults">30-50 years</option>
+               <option value="seniors">50+ years</option>
+            </select>
+        </div>
+        <br>
+        <button id="button">Register</button>
+    </form>
+</body>
+</html>
