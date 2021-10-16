@@ -36,7 +36,7 @@ span{
 }
 
 section div{
-    transition: margin-left 1s;
+    transition: margin-left 1.2s;
 }
 
 section:hover div{
